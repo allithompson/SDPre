@@ -1,11 +1,10 @@
 public class Objective8Lab2 {
   public static void main(String[] args) {
-    int counter = 1;
     int sum = 0;
-    while(counter <= 20) {
-      sum = counter + sum;
-      counter = counter + 1;
-    }
-    System.out.println(sum);
+
+    for(int i = 1; i <= 20; i = i + 1) {
+      sum = sum + i;
+  }
+  System.out.println(sum);
   }
 }
